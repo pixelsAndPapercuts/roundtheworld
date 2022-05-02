@@ -1,0 +1,39 @@
+.errorModal {
+  height: 80vh;
+  min-height: 420px;
+}
+
+.error {
+  max-width: 80vw;
+  animation: show 0.7s ease-in-out;
+}
+
+@keyframes show {
+  0% {
+    transform: scale(0);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  80% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.errorText {
+  background-color: #e8175d;
+  height: 60px;
+}
+.errorText > div {
+  font-size: 20px;
+}
+.errorMessage {
+  background-color: #f3edf3;
+}
+.errorMessage > div {
+  color: #344e5c;
+  font-size: 20px;
+}

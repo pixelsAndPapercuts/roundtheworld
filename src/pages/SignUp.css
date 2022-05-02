@@ -1,0 +1,71 @@
+.background {
+  height: 100vh;
+  background: url("../assets/background.webp") #9b999b;
+  background-size: cover;
+  background-blend-mode: multiply;
+  overflow-y: scroll;
+}
+.background::-webkit-scrollbar {
+  display: none;
+}
+
+.signUpLeft {
+  background: url("../assets/background.webp") #f2edf3;
+  background-size: auto;
+  background-blend-mode: multiply;
+}
+
+.signUpRight {
+  background-color: #e8175d;
+}
+@media (width<576px) {
+  .signUpRight {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    animation: show 0.7s ease-in-out;
+  }
+  @keyframes show {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    80% {
+      transform: scale(0.95);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+}
+
+.signUpLeft a {
+  color: black;
+  text-decoration: none;
+}
+
+@media (width>=576px) {
+  .background > div {
+    animation: show 0.7s ease-in-out;
+  }
+
+  @keyframes show {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    80% {
+      transform: scale(0.95);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+}

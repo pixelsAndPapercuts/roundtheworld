@@ -1,0 +1,10 @@
+.mapbox {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.map-container {
+  background: url("../assets/background.webp") #344e5c;
+  background-size: cover;
+  background-blend-mode: multiply;
+}

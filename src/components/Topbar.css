@@ -1,0 +1,21 @@
+.profile {
+  background-color: #344e5c;
+  border-radius: 50%;
+}
+
+.user {
+  color: #344e5c;
+}
+
+.logout {
+  cursor: pointer;
+  border: none;
+  color: #344e5c;
+  background: none;
+}
+
+.logout:hover {
+  transform: scale(1.01);
+  color: #445f6d;
+  text-decoration: underline;
+}

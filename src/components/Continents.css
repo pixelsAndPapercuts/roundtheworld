@@ -1,0 +1,50 @@
+.continents {
+  cursor: pointer;
+}
+.continentClicked {
+  background-color: #f2edf3 !important;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: black !important;
+}
+.continentClicked > span {
+  color: black !important;
+}
+
+@media (width>=576px) {
+  .dropdown-menu {
+    position: static !important;
+    border: none !important ;
+  }
+  .dropdown-item:hover {
+    background-color: #f2edf3 !important;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: black !important;
+  }
+  .dropdown-item:hover > span {
+    color: black !important;
+  }
+  .continentsWrapper {
+    width: 100%;
+  }
+}
+@media (width<576px) {
+  #dropdown-menu {
+    background-color: #344e5c !important ;
+    background: url("../assets/background.webp") #f2edf3;
+    background-size: cover;
+    background-blend-mode: color-burn;
+    width: 50vw !important;
+  }
+
+  .dropdown-item:hover {
+    background-color: #f2edf3 !important;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: black !important;
+  }
+  .dropdown-item:hover > span {
+    color: black !important;
+  }
+}

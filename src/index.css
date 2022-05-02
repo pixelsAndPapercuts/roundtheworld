@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+:root {
+  --common-font: "Open Sans", Helvetica, sans-serif;
+}
+
+* {
+  font-family: var(--common-font) !important;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, var(--common-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

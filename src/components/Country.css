@@ -1,0 +1,7 @@
+.countryCard {
+  cursor: pointer;
+}
+
+.countryCard:hover {
+  transform: scale(1.05);
+}

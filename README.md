@@ -33,4 +33,4 @@ This app uses the [Rest Countries API](https://restcountries.com/) to display co
 
 - [Bootstrap v5.1](https://getbootstrap.com/)
 - [Material UI](https://mui.com/)
-- [Formik] (https://formik.org/)
+- [Formik](https://formik.org/)

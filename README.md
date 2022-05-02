@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This project creates a web app that allows users to view all the countries of the world. The app provides multiple functionalities:
 
-- user authentication
+- User authentication
 - View all countries
 - Filter countries by continent
 - Search countries by name
